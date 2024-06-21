@@ -54,7 +54,7 @@ The dataset includes images of individual products and groups of products. At le
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/water-bottles-classifier.git
+   git clone https://github.com/gisih/water-bottles-classifier.git
    ```
 2. Navigate to the project directory:
    ```bash
