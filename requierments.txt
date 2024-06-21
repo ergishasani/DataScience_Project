@@ -1,0 +1,9 @@
+tensorflow
+keras
+numpy
+pandas
+matplotlib
+scikit-learn
+
+
+make around 300 pics, with 3 brands of watter bottles, brand1, brand2, brand3 in each one 100 pics or more, and name the folders as asked and put them in the datasets folder
