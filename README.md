@@ -54,7 +54,7 @@ The dataset includes images of individual products and groups of products. At le
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/ergishasani/data_science.git
+   git clone https://github.com/ergishasani/DataScience_Project
    ```
 2. Navigate to the project directory:
    ```bash
