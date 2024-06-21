@@ -66,26 +66,3 @@ plt.ylabel('Accuracy')
 plt.ylim([0, 1])
 plt.legend(loc='lower right')
 plt.show() 
-
-#Explanation:
-#Imports: Necessary libraries are imported, including TensorFlow, Keras, NumPy, Matplotlib, and scikit-learn.
-
-#Directories and Classes: The directory where the dataset is stored and the class labels are defined.
-
-#mage Parameters: Set the height, width of the images, and the batch size for training.
-
-#Data Augmentation:
-
-#ImageDataGenerator is used to rescale the images and split the data into training and validation sets.
-#flow_from_directory creates data generators for the training and validation datasets.
-#Model Definition:
-
-#A Sequential model is defined.
-#The model consists of a Flatten layer to convert images to a 1D vector, followed by two Dense layers with ReLU activation, and an output Dense layer with softmax activation for classification.
-#Model Compilation: The model is compiled using the Adam optimizer and categorical cross-entropy loss.
-
-#Model Training: The model is trained using the training data generator and validated using the validation data generator for 10 epochs.
-
-#Model Saving: The trained model is saved to a specified directory.
-
-#Plotting: The training and validation accuracy are plotted over the epochs to visualize the model's performance.
